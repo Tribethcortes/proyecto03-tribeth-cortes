@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--link bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--link iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Restaurante</title>
+    <link rel="icon" href="Restaurant-Logo-by-Koko-Store-580x386.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="acti.css">
+</head>
+<body>
+<!--Barra de Navegación-->
+<nav class="navbar navbar-expand-lg barranavegacion" id="regresar">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-start justify-content-between me-5" id="navbarTogglerDemo01">
+      <div class="navbar-nav ms-2 justify-content-center align-items-center">
+      <a class="navbar-brand" href=""><img src="Restaurant-Logo-by-Koko-Store-580x386.jpg" alt="Logo" class="rounded" style="width: 12%;"></a>
+      </div>
+      <ul class="navbar-nav  d-flex align-items-center listaenlaces">
+        <li class="nav-item">
+          <a class="nav-link active a" aria-current="page" href="#Bienvenido"> <p>Inicio</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#Acerca"><p>Acerca de</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#seccion"><p>Acerca de Menú</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#evento"><p>Eventos</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#chef"><p>Chefs</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#galeria"><p>Galeria</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active a" href="#contacto"><p>Contactanos</p></a>
+        </li>
+      </ul>
+        <div class="navbar-nav d-flex align-items-center">
+          <a class="botones" href="#reserva">Reserva</a>
+          </div>  
+     </div>
+  </div>
+</nav>
+   
+ 
+     <section class="container mt-5">
+  <div class="row align-items-center">
+ 
+    <div class="col-md-6">
+      <h1 class=" display-4" id="Bienvenido">Bienvenido al sabor auténtico</h1>
+      <p class="lead">Tu experiencia culinaria comienza aquí.</p>
+      <a href="#ahora" class="bg-danger btn btn-outline-dark me-2">Haz tu reserva</a>
+      <a href="#seccion" class="btn btn-dark">Visita nuestro Menú</a>
+    </div>
+    <!-- Imagen redondeada -->
+    <div class=" imagenredonda col-md-6 text-center">
+      <img  src="principio.jpg" class="img-fluid rounded-circle" alt="Chef">
+    </div>
+  </div>
+</section>
+    <div class="container my-5">
+    <h1 class="text-center" id="Acerca">Conozca más Sobre Nosotros</h1>
+ 
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="ratio ratio-16x9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yodGx-ef8VY?si=j3LirbVgB6rPoRx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Pida lo que desee</h2>
+        <p>En nuestro restaurante te ofrecemos un poco de <br>todo: desde entradas ligeras hasta platos <br>fuertes llenos de sabor, postres irresistibles y bebidas refrescantes. </p>
+      </div>
+    </div>
+ 
+    <div class="text-center mt-4">
+      <a href="https://wa.me/64113957" class="btn btn-danger btn-lg" target="_blank">
+        <img src="OIP.webp" alt="WhatsApp" class="img-thumbnail" style="width: 40px;">
+        <i class="fab fa-whatsapp"></i> Reserva una mesa con Nosotros
+      </a>
+    </div>
+  </div>
+      
+  <div class="container">
+    <div>
+    <div class="row row-cols-1 row-cols-md-4 g-1">
+  <div class="col cardhover">
+    <div class="card ">
+      <img src="indicada.jpg" class=" d-block mx-auto rounded-circle" alt="..." width="200" height="200">
+      <div class="card-body">
+        <h5 class="card-title">Por que elegirnos</h5>
+        <p class="card-text">En nuestro restaurante tratamos a las personas como se debe y les damos muchas regalias a nuestros clientes.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col cardhover">
+    <div class="card">
+      <img src="design-4508076_640.jpg" class=" d-block mx-auto rounded-circle" alt="..." width="200" height="200">
+      <div class="card-body">
+        <h5 class="card-title">Sillones de lujo</h5>
+        <p class="card-text">Tenemos sillones muy comodos para consentir a nuestros clientes a que reposen la comida.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col cardhover">
+    <div class="card">
+     <img src="glass-3234617_640.jpg" class=" d-block mx-auto rounded-circle" alt="..." width="200" height="200">
+      <div class="card-body">
+        <h5 class="card-title">Cortesía Nuestra</h5>
+        <p class="card-text">Te regalamos un brindis de vino, que acompaña tan bien esta ocasión especial de comidas.".</p>
+      </div>
+    </div>
+  </div>
+  <div class="col cardhover">
+    <div class="card">
+      <img src="cherries-in-a-bowl-773021_640.jpg" class=" d-block mx-auto rounded-circle" alt="..." width="200" height="200">
+      <div class="card-body">
+        <h5 class="card-title">Frutas de regalia</h5>
+        <p class="card-text">Terminas de comer y te puedes llevar las frutas que desees para un mejor gusto y sabor .</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    </div>
+     <br>
+
+          <ul class="dropdown-menu ">
+         <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="glass-2696759_640.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="bread-2178874_640.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+     </ul>
+            
+          
+           <div class="text-center">
+             <h1 id="seccion">Nuestro Menú</h1>
+            
+            <div class="container d-flex justify-content-center">
+           <ul class="nav nav-tabs " id="menuTabs" role="tablist">
+  <li class="nav-item">
+    <a class=" nav-link active" data-bs-toggle="tab" href="#Entrada">Entrada</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Desayuno">Desayuno</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Almuerzo">Amuerzo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Cena">Cena</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Postres">Postres</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Bebidas">Bebidas</a>
+  </li>
+</ul>
+     </div>
+    
+    </div>
+
+<div class="tab-content mt-3 container mt-5">
+      
+
+  <div class="tab-pane fade show active" id="Entrada">
+    <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="entrada (2).jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">plato liviano</h5>
+        <p class="card-text">Tortillita con relleno de carne para el gusto.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="entrada.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">plato liviano</h5>
+        <p class="card-text">Prueba un filetcito de pescado y te encantara.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="tab-pane fade" id="Desayuno">
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="desayuno.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Pan cuadrado</h5>
+        <p class="card-text">pan cuadrado con un pedazo de carne suave.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="desayuno (2).jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">huevo y pinto</h5>
+        <p class="card-text">un huevo y el gallo pinto con una taza de un buen cafe.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+      
+      <div class="tab-pane fade" id="Almuerzo">
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="almuerzo 2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">pollo</h5>
+        <p class="card-text">un buen pollo frito con una tortilla de muy buen gusto.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="amuerzo.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Carne desmechada</h5>
+        <p class="card-text">muy buena carne de res con una vainicas ricas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div> 
+     
+      <div class="tab-pane fade" id="Cena">
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="cena (2).jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Arroz revuelto</h5>
+        <p class="card-text">la mejor cena arroz calientito con salchichas picadas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="cena.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Carne ahumada</h5>
+        <p class="card-text">cena de lujo con una carne en su punto y una muy buena ensalada.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+      <div class="tab-pane fade" id="Postres">
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="postre2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">pan de chocolate</h5>
+        <p class="card-text">postre que vale la pena y super delicioso.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="postre.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">tasa de helado con yogurt</h5>
+        <p class="card-text">un helado que vale la pena mas un yogurt de leche condensada.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <div class="tab-pane fade" id="Bebidas">
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="bebida2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">vino de naranja</h5>
+        <p class="card-text">una copita y a disfutar de un brindis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="bebida.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">banano batido</h5>
+        <p class="card-text">bebida super deliciosa con frutas de alta calidad.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+     </div>
+   
+    <div class="container">
+  <h2 class="text-center mb-4">Especialidad del Chef</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="chef.jpg" class="card-img-top" alt="Plato 1">
+        <div class="card-body">
+          <h5 class="card-title">Especialista en Garde Manger</h5>
+          <p class="card-text">Encargado de platos fríos como ensaladas, embutidos y aperitivos de muy buen gusto y sabor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <img src="chef-3975835_640.jpg" class="card-img-top" alt="Plato 2">
+        <div class="card-body">
+          <h5 class="card-title">Especialista en en el sabor</h5>
+          <p class="card-text">Tiene un paladar excepcional, sabe equilibrar sabores, texturas y aromas con precisión..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>  
+      
+<div class="container">
+      <h2 class="text-center mb-4" id="testimonios">¿Que dicen de nosotros?</h2>
+     <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="comentario.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Carlos Daniel</h5>
+        <p class="card-text">Ambiente acogedor y comida deliciosa. El filete estaba en su punto ★★★★☆☆.</p> 
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="comentario (2).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sofia Lopez</h5>
+        <p class="card-text">Me encantó el menú vegetariano. Todo muy bien presentado y con mucho sabor ★★★☆☆.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="cocinero.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gerald Arce</h5>
+        <p class="card-text">Cada plato que servimos está hecho con pasión y productos locales de la mejor calidad ★★★★☆☆.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="comentario (3).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Monica Centeno</h5>
+        <p class="card-text">El postre estaba espectacular y el servicio fue muy amable. ¡Definitivamente volveré ★★★★☆.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+     
+     <div class="container mt-5">
+  <h2 class="text-center" id="galeria">Galería</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="galeria.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen1">
+    </div>
+    <div class="col-md-6">
+      <img src="galeria (2).jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen2">
+    </div>
+    <div class="col-md-6">
+      <img src="galeria (3).jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen3">
+    </div>
+    <div class="col-md-6">
+      <img src="galeria (4).jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen4">
+    </div>
+  </div>
+</div>
+     
+      
+     <!-- Modal Imagen 1 -->
+<div class="modal fade" id="modalImagen1" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center">
+        <img src="galeria.jpg" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Imagen 2 -->
+<div class="modal fade" id="modalImagen2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center">
+        <img src="galeria (2).jpg" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div> 
+     <!-- Modal Imagen 3 -->
+     <div class="modal fade" id="modalImagen3" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center">
+        <img src="galeria (3).jpg" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+     <!-- Modal Imagen 4 -->
+     <div class="modal fade" id="modalImagen4" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center">
+        <img src="galeria (4).jpg" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>  
+
+     <div class="container my-5">
+  <h2 class="text-center mb-4" id="chef">Nuestros Chef Profesionales</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="chef de cocina.jpg" class="card-img-top" alt="Chef 1">
+        <div class="card-body">
+          <h5 class="card-title">Chef Mario</h5>
+          <p class="card-text">Apasionado de la cocina que combina técnica, creatividad y respeto por los ingredientes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="chef de cocinar pescado.jpg" class="card-img-top" alt="Chef 1">
+        <div class="card-body">
+          <h5 class="card-title">Chef Wiston</h5>
+          <p class="card-text">Experto en cocina marina,reconocido por su habilidad para resaltar los sabores naturales del pescado.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="chef de ensalada.jpg" class="card-img-top" alt="Chef 1">
+        <div class="card-body">
+          <h5 class="card-title">Chef Kevin</h5>
+          <p class="card-text">Es un maestro en el arte de las ensaladas frescas y creativas..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="interior-2600879_640.jpg" class="img-fluid rounded" alt="Reserva">
+    </div>
+    <div class="col-md-6">
+       <h2 class="text-star mb-5" id="reserva">Reserva tu Mesa</h2>
+      <p>Ademas de una muy buena atencion por que no vienes y vez todo lo que tenemos para ti</p>
+      <ul class="list-unstyled">
+        <li><strong>Horario de apertura:</strong> 8am - 10pm</li>
+        <br>
+        <li><strong>Ubicación:</strong> Guanacaste, Costa Rica</li>
+        <br>
+        <li><strong>Llámenos:</strong> +506 6234 5678</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+     <div class="container my-5">
+  <h2 class="text-center mb-4" id="ahora">Reserva ahora</h2>
+  <form>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
+    </div>
+    <div class="mb-3">
+      <label for="personas" class="form-label">¿Cuántos en su mesa?</label>
+      <select class="form-select" id="personas">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4+</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="notas" class="form-label">Notas adicionales</label>
+      <textarea class="form-control" id="notas" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+  
+    <div class="container">
+      <h1 class=" text-center" id="evento">Eventos</h1>
+  <div class="row g-1">
+    <div class="col-md-6">
+      <img src="tacos-al-pastor-4351813_1280.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Tacos al pastor">
+    </div>
+    <div class="col-md-6 d-flex flex-column">
+      <div class="flex-fill mb-1">                                            <!-- object-fit-cover esto te ayuda a llenar el contenedor sin que las imagenes se desborden-->    
+        <img src="table-setting-791148_640.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Mesa servida">
+      </div>
+      <div class="flex-fill">
+        <img src="family-7727035_640.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Familia feliz">
+      </div>
+    </div>
+  </div>
+</div>
+ 
+       <section class="container py-5">
+  <h2 class="text-center mb-4" id="contacto">¿Necesitas Ayuda? Contáctanos</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4911237430674!2d-85.35821792640398!3d10.926225256415751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f756d812f47ff81%3A0x3b2cd86fa77c213e!2sFinca%20Las%20Letras!5e0!3m2!1ses!2scr!4v1753979060485!5m2!1ses!2scr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="row text-center g-4">
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow">
+        <div class="card-body">
+          <i class="bi bi-geo-alt-fill fs-2 text-primary"></i>
+          <h5 class="card-title mt-3">DIRECCIÓN</h5>
+          <p class="card-text">liberia, Guanacaste</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow">
+        <div class="card-body">
+          <i class="bi bi-envelope-fill fs-2 text-primary"></i>
+          <h5 class="card-title mt-3">Correo Electrónico</h5>
+          <p class="card-text">info@empresa.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow">
+        <div class="card-body">
+          <i class="bi bi-telephone-fill fs-2 text-primary"></i>
+          <h5 class="card-title mt-3">Llámanos</h5>
+          <p class="card-text">506: 641149856</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow">
+        <div class="card-body">
+          <i class="bi bi-clock-fill fs-2 text-primary"></i>
+          <h5 class="card-title mt-3">Horario</h5>
+          <p class="card-text">Lunes a sábado: 11:00–20:30<br>Domingos cerrado</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+     
+ <footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+    <div class="text-center my-3">
+  <a href="https://www.facebook.com/TuPagina" target="_blank">
+    <img src="OIP (1).webp" alt="Facebook" class="img-fluid rounded-circle shadow" width="50">
+  </a>
+  <a href="https://www.instagram.com/TuPagina" target="_blank">
+    <img src="OIP (2).webp" alt="" class="img-fluid rounded-circle shadow" width="50">
+  </a>
+  <a href="https://www.whatsaap.com/TuPagina" target="_blank">
+    <img src="OIP.webp" alt="" class="img-fluid rounded-circle shadow" width="50">
+  </a>
+</div>
+  
+    <h5 class="mt-2">Nombre</h5>
+    <p>Creamos experiencias digitales que conectan, inspiran y convierten.</p>
+  </div>
+</footer>
+   
+    <a href="#" class="btn btn-primary back-to-top" title="Volver arriba">
+  ↑
+</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
